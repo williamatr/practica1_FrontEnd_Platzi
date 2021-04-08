@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrouser 1</title>
+  </head>
+  <style>
+    body {
+      margin: 0px;
+    }
+    .carousel {
+      width: 100%;
+      overflow: scroll;
+      padding: 30px;
+      position: relative;
+    }
+    .carousel__container {
+      white-space: nowrap;
+      margin: 70px 0px;
+      padding-bottom: 10px;
+    }
+    .carousel-item {
+      display: inline-block;
+      width: 200px;
+      height: 250px;
+      border-radius: 20px;
+      overflow: hidden;
+      margin-right: 10px;
+      cursor: pointer;
+      transition: 450ms;
+      transform-origin: center;
+      position: relative;
+    }
+    .carousel-item:hover ~ .carousel-item {
+      transform: translate3d(50px, 0, 0);
+    }
+    .carousel__container:hover .carousel-item {
+      opacity: 0.3;
+    }
+    .carousel__container:hover .carousel-item:hover {
+      transform: scale(1.5);
+      opacity: 1;
+    }
+    .carousel-item__img {
+      width: 200px;
+      height: 250px;
+      object-fit: cover;
+    }
+    .carousel-item__details {
+      background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0) 100%
+      );
+      font-size: 10px;
+      opacity: 0;
+      transition: 450ms opacity;
+      padding: 10px;
+      padding-top: 50px;
+      position: absolute;
+      top: 140px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .carousel-item__details:hover {
+      opacity: 1;
+    }
+    .carousel-item__details--title,
+    .carousel-item__details--subtitle {
+      color: #ffffff;
+      margin: 0px;
+    }
+    .carousel-item__details--title {
+      font-style: bold;
+    }
+    .carousel-item__details--subtitle {
+      font-size: 9px;
+    }
+    .carousel-item__details--plus{
+        padding: 2.5px;
+    }
+  </style>
+  <body>
+    <section class="carousel">
+      <div class="carousel__container">
+        <div class="carousel-item">
+          <img
+            class="carousel-item__img"
+            src="https://images.pexels.com/photos/7082446/pexels-photo-7082446.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt="Foto Casita"
+          />
+          <div class="carousel-item__details">
+            <div>
+              <img
+                class="carousel-item__details--play"
+                src="https://img.icons8.com/officexs/20/000000/play.png"
+                alt="button play"
+              />
+              <img
+                class="carousel-item__details--plus"
+                src="https://img.icons8.com/officexs/14/000000/plus-math.png"
+                alt="button add"
+              />
+            </div>
+            <p class="carousel-item__details--title">Casita Blanca</p>
+            <p class="carousel-item__details--subtitle">Preciosa casa ubicada en un lugar bonito</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="carousel-item__img"
+            src="https://images.pexels.com/photos/2962096/pexels-photo-2962096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt="Foto Cafeteria"
+          />
+          <div class="carousel-item__details">
+            <div>
+              <img
+                class="carousel-item__details--play"
+                src="https://img.icons8.com/officexs/20/000000/play.png"
+                alt="button play"
+              />
+              <img
+                class="carousel-item__details--plus"
+                src="https://img.icons8.com/officexs/14/000000/plus-math.png"
+                alt="button add"
+              />
+            </div>
+            <p class="carousel-item__details--title">Cafeteria Wapa</p>
+            <p class="carousel-item__details--subtitle">Cafeteria Wapisima donde se sirve el mejor cafe</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="carousel-item__img"
+            src="https://images.pexels.com/photos/981916/pexels-photo-981916.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt="Foto Edificio"
+          />
+          <div class="carousel-item__details">
+            <div>
+              <img
+                class="carousel-item__details--play"
+                src="https://img.icons8.com/officexs/20/000000/play.png"
+                alt="button play"
+              />
+              <img
+                class="carousel-item__details--plus"
+                src="https://img.icons8.com/officexs/14/000000/plus-math.png"
+                alt="button add"
+              />
+            </div>
+            <p class="carousel-item__details--title">Titulo Descriptivo</p>
+            <p class="carousel-item__details--subtitle">Titulo Descriptivo</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="carousel-item__img"
+            src="https://images.pexels.com/photos/7394024/pexels-photo-7394024.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt="Ciclista"
+          />
+          <div class="carousel-item__details">
+            <div>
+              <img
+                class="carousel-item__details--play"
+                src="https://img.icons8.com/officexs/20/000000/play.png"
+                alt="button play"
+              />
+              <img
+                class="carousel-item__details--plus"
+                src="https://img.icons8.com/officexs/14/000000/plus-math.png"
+                alt="button add"
+              />
+            </div>
+            <p class="carousel-item__details--title">Titulo Descriptivo</p>
+            <p class="carousel-item__details--subtitle">Titulo Descriptivo</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            class="carousel-item__img"
+            src="https://images.pexels.com/photos/7203020/pexels-photo-7203020.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+            alt="Ramo de bodas"
+          />
+          <div class="carousel-item__details">
+            <div>
+              <img
+                class="carousel-item__details--play"
+                src="https://img.icons8.com/officexs/20/000000/play.png"
+                alt="button play"
+              />
+              <img
+                class="carousel-item__details--plus"
+                src="https://img.icons8.com/officexs/14/000000/plus-math.png"
+                alt="button add"
+              />
+            </div>
+            <p class="carousel-item__details--title">Titulo Descriptivo</p>
+            <p class="carousel-item__details--subtitle">Titulo Descriptivo</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
