@@ -4,9 +4,9 @@
 <p align="center">
     <img src="https://raw.githubusercontent.com/bitwarden/brand/master/screenshots/web-vault-macbook.png" alt="" width="600" height="358" />
 </p>
-
+<p align="center">
 _Acá va un párrafo que describa lo que es el proyecto._
-
+</p>
 <p align="center">
 (https://LINK_AL_PROYECTO_DESPLEGADO.com/)
 </p>
