@@ -1,6 +1,6 @@
 # Título del Proyecto
 
-### Fotos del proyecto corriendo
+## Fotos del proyecto corriendo
 <p align="center">
     <img src="https://raw.githubusercontent.com/bitwarden/brand/master/screenshots/web-vault-macbook.png" alt="" width="600" height="358" />
 </p>
