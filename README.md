@@ -2,7 +2,7 @@
 
 ## Fotos del proyecto corriendo
 <p align="center">
-    <img src="https://raw.githubusercontent.com/bitwarden/brand/master/screenshots/web-vault-macbook.png" alt="" width="600" height="358" />
+    <img src="https://i.ibb.co/g6pVqd4/imagen-2021-04-11-012047.png" alt="" width="600" height="358" />
 </p>
 <p align="center">
 Este es el repositorio donde estoy subiendo el proyecto del curso de FrontEnd de Platzi, una UI para la plataforma PlatziVideo.
