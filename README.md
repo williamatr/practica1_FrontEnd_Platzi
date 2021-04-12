@@ -5,15 +5,13 @@
     <img src="https://i.ibb.co/g6pVqd4/imagen-2021-04-11-012047.png" alt="" width="500" height="385" />
     <img src="https://i.ibb.co/sVS62Bz/2021-04-12-10h56-47.png" alt="" width="500" height="385" />
 </div>
-<p align="center">
+<div align="left">
     <img src="https://i.ibb.co/FWyT3b9/2021-04-12-10h57-22.png" alt="" width="500" height="385" />
-</p>
-<p align="center">
     <img src="https://i.ibb.co/2MgK9bG/2021-04-12-10h57-06.png" alt="" width="500" height="385" />
-</p>
-<p align="center">
+</div>
+<div align="center">
     <img src="https://i.ibb.co/fHw1Ch3/2021-04-12-10h57-35.png" alt="" width="500" height="385" />
-</p>
+</div>
 <p align="center">
 Este es el repositorio donde estoy subiendo el proyecto del curso de FrontEnd de Platzi, una UI para la plataforma PlatziVideo.
 </p>
