@@ -2,7 +2,7 @@
 
 ## Fotos del proyecto corriendo
 <p align="center">
-    <img src="https://i.ibb.co/g6pVqd4/imagen-2021-04-11-012047.png" alt="" width="500" height="358" />
+    <img src="https://i.ibb.co/g6pVqd4/imagen-2021-04-11-012047.png" alt="" width="1000" height="770" />
 </p>
 <p align="center">
 Este es el repositorio donde estoy subiendo el proyecto del curso de FrontEnd de Platzi, una UI para la plataforma PlatziVideo.
