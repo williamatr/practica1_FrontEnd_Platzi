@@ -1,9 +1,9 @@
 # Título del Proyecto
 
 ## Fotos del proyecto corriendo
-<p align="center">
-    <img src="https://i.ibb.co/g6pVqd4/imagen-2021-04-11-012047.png" alt="" width="500" height="385" />
-</p>
+
+    <img src="https://i.ibb.co/g6pVqd4/imagen-2021-04-11-012047.png" alt="" width="500" height="385" align="left" />
+
 <p align="center">
     <img src="https://i.ibb.co/sVS62Bz/2021-04-12-10h56-47.png" alt="" width="500" height="385" />
 </p>
