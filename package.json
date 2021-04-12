@@ -1,0 +1,33 @@
+{
+  "name": "practica1_FrontEnd_Platzi",
+  "version": "1.0.0",
+  "description": "## Fotos del proyecto corriendo <p align=\"center\">     <img src=\"https://i.ibb.co/g6pVqd4/imagen-2021-04-11-012047.png\" alt=\"\" width=\"400\" height=\"358\" /> </p> <p align=\"center\"> Este es el repositorio donde estoy subiendo el proyecto del curso de FrontEnd de Platzi, una UI para la plataforma PlatziVideo. </p> <p align=\"center\"> (https://LINK_AL_PROYECTO_DESPLEGADO.com/) </p> <p align=\"center\">   <a href=\"#\" target=\"_blank\">     <img src=\"https://github.com/bitwarden/web/actions/workflows/build.yml/badge.svg?branch=master\" alt=\"\" />   </a>   <a href=\"#\" target=\"_blank\">     <img src=\"https://d322cqt584bo4o.cloudfront.net/bitwarden-web/localized.svg\" alt=\"\" />   </a>   <a href=\"#\" target=\"_blank\">     <img src=\"https://img.shields.io/docker/pulls/bitwarden/web.svg\" alt=\"\" />   </a>   <a href=\"#\" target=\"_blank\">     <img src=\"https://badges.gitter.im/bitwarden/Lobby.svg\" alt=\"\" />   </a> </p>",
+  "main": "index.js",
+  "dependencies": {
+    "prettier": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@storybook/addon-actions": "^6.2.7",
+    "@storybook/addon-essentials": "^6.2.7",
+    "@storybook/addon-links": "^6.2.7",
+    "@storybook/html": "^6.2.7",
+    "babel-loader": "^8.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamtovar/practica1_FrontEnd_Platzi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamtovar/practica1_FrontEnd_Platzi/issues"
+  },
+  "homepage": "https://github.com/williamtovar/practica1_FrontEnd_Platzi#readme"
+}

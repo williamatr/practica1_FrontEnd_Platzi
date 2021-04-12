@@ -16,6 +16,7 @@
   <body>
     <header class="header">
       <img
+      tabindex="0"
         class="header__img"
         src="https://raw.githubusercontent.com/platzi/PlatziVideo/feature/react/src/assets/static/logo-platzi-video-BW2.png"
         alt="Logo Platzi"
@@ -38,10 +39,10 @@
     </header>
     <section class="login">
       <div class="login__container">
-        <h2>Inicia Sesion</h2>
+        <h2 tabindex="0">Inicia Sesion</h2>
         <form class="login__container--form">
-          <input class="input" type="text" placeholder="Correo" />
-          <input class="input" type="password" placeholder="Contraseña" />
+          <input aria-label="Correo" class="input" type="text" placeholder="Correo" />
+          <input aria-label="Contraseña" class="input" type="password" placeholder="Contraseña" />
           <button class="button">Iniciar Sesion</button>
           <div class="login__container--remember-me">
             <label for="">
